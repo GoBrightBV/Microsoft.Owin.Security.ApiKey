@@ -21,8 +21,4 @@
       </group>
     </dependencies>
   </metadata>
-  <files>
-    <file src="..\Microsoft.Owin.Security.ApiKey\bin\release\Microsoft.Owin.Security.ApiKey.dll" target="lib\net452\Microsoft.Owin.Security.ApiKey.dll" exclude="" />
-    <file src="..\Microsoft.Owin.Security.ApiKey\bin\release\Microsoft.Owin.Security.ApiKey.xml" target="lib\net452\Microsoft.Owin.Security.ApiKey.xml" exclude="" />
-  </files>
 </package>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Owin.Security.ApiKey</id>
+    <version>1.0.2</version>
+    <title>Microsoft.Owin.Security.ApiKey</title>
+    <authors>James Harling</authors>
+    <owners>James Harling</owners>
+    <licenseUrl>https://github.com/jamesharling/Microsoft.Owin.Security.ApiKey/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/jamesharling/Microsoft.Owin.Security.ApiKey</projectUrl>
+    <description>Middleware for your Owin pipeline that allows an application to perform authentication of requests via an API key in the Authorization header.</description>
+    <summary>Owin middleware that enables an application to authenticate with API keys.</summary>
+    <copyright>Copyright © James Harling</copyright>
+    <tags>api key apikey auth authentication owin middleware</tags>
+    <dependencies>
+      <group targetFramework="net452">
+        <dependency id="Microsoft.Owin" version="3.0.1" />
+        <dependency id="Microsoft.Owin.Security" version="3.0.1" />
+        <dependency id="Owin" version="1.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Microsoft.Owin.Security.ApiKey\bin\release\Microsoft.Owin.Security.ApiKey.dll" target="lib\net452\Microsoft.Owin.Security.ApiKey.dll" exclude="" />
+    <file src="..\Microsoft.Owin.Security.ApiKey\bin\release\Microsoft.Owin.Security.ApiKey.xml" target="lib\net452\Microsoft.Owin.Security.ApiKey.xml" exclude="" />
+  </files>
+</package>

@@ -8,6 +8,7 @@ Grab the package from NuGet, which will install all dependencies.
 
 ## Usage
 Extension methods for `IAppBuilder` will enable the middleware. Your custom delegates can be passed to `ApiKeyAuthenticationProvider`; at a minimum, you must implement `OnValidateIdentity` to validate the incoming API keys.
+`OnGenerateClaims` is optional; the middleware will always construct an identity with a claim denoting the authentication type, but you have the option of fleshing out the identity with further custom claims if you wish.
 
 ```csharp
 public void Configuration(IAppBuilder app)

@@ -1,4 +1,4 @@
-# Microsoft.Owin.Security.ApiKey
+# Microsoft.Owin.Security.ApiKey [![Build status](https://ci.appveyor.com/api/projects/status/uxemt6d3ygjronab/branch/master?svg=true)](https://ci.appveyor.com/project/jamesharling/microsoft-owin-security-apikey/branch/master)
 Lets an OWIN-enabled application use API keys for authentication. 
 
 ## Getting started

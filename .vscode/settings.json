@@ -1,0 +1,9 @@
+{
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cmake.touchbar.visibility": "hidden",
+    "cmake.useCMakePresets": "always"
+}
